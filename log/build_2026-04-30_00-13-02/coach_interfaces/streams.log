@@ -1,0 +1,74 @@
+[1.185s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces
+[1.235s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.675s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.180s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.205s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.807s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.265s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.766s] -- Found Python3: /home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.268s] -- Found Python3: /home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.339s] -- Configuring done (6.1s)
+[7.512s] -- Generating done (0.1s)
+[7.553s] -- Build files have been written to: /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces
+[7.571s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces
+[7.574s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces -- -j4 -l4
+[7.720s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[7.721s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.754s] [  4%] Built target ament_cmake_python_copy_coach_interfaces
+[8.477s] TransientParseError when expanding 'rmw.rs.em' into '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_generator_rs/coach_interfaces/rust/src/msg/rmw.rs': not enough data to read
+[8.478s] Traceback (most recent call last):
+[8.479s]   File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 43, in <module>
+[8.479s]     sys.exit(main())
+[8.479s]              ^^^^^^
+[8.479s]   File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 36, in main
+[8.480s]     return generate_rs(
+[8.480s]            ^^^^^^^^^^^^
+[8.480s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py", line 165, in generate_rs
+[8.480s]     rosidl_pycommon.expand_template(
+[8.481s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 191, in expand_template
+[8.481s]     interpreter.string(template_content, locals=data)
+[8.481s]   File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5487, in string
+[8.487s]     while not self.safe(scanner, True, locals, dispatcher):
+[8.487s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[8.487s]   File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5500, in safe
+[8.488s]     return self.parse(scanner, locals)
+[8.488s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[8.489s]   File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5554, in parse
+[8.489s]     token = scanner.one()
+[8.490s]             ^^^^^^^^^^^^^
+[8.490s]   File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 4481, in one
+[8.491s]     first = self.chop(1)
+[8.491s]             ^^^^^^^^^^^^
+[8.491s]   File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 4210, in chop
+[8.493s]     raise TransientParseError("not enough data to read")
+[8.493s] em.TransientParseError: not enough data to read
+[8.535s] [  4%] Built target coach_interfaces__rosidl_generator_type_description
+[8.539s] running egg_info
+[8.551s] gmake[2]: *** [/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/coach_interfaces__rs/CMakeFiles/coach_interfaces__rs.dir/build.make:124: rosidl_generator_rs/coach_interfaces/rust/src/lib.rs] Error 1
+[8.552s] gmake[1]: *** [CMakeFiles/Makefile2:666: coach_interfaces__rs/CMakeFiles/coach_interfaces__rs.dir/all] Error 2
+[8.553s] gmake[1]: *** Waiting for unfinished jobs....
+[8.576s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.606s] creating coach_interfaces.egg-info
+[8.606s] writing coach_interfaces.egg-info/PKG-INFO
+[8.607s] writing dependency_links to coach_interfaces.egg-info/dependency_links.txt
+[8.608s] writing top-level names to coach_interfaces.egg-info/top_level.txt
+[8.608s] writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[8.611s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.780s] reading manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[8.783s] writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[8.886s] [  8%] Built target ament_cmake_python_build_coach_interfaces_egg
+[9.673s] [  8%] Built target coach_interfaces__cpp
+[9.786s] [ 11%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__functions.c.o[0m
+[9.792s] [ 13%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__description.c.o[0m
+[9.793s] [ 15%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__type_support.c.o[0m
+[9.926s] [ 17%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__description.c.o[0m
+[9.965s] [ 20%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__functions.c.o[0m
+[10.027s] [ 22%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__type_support.c.o[0m
+[10.109s] [ 24%] [32m[1mLinking C shared library libcoach_interfaces__rosidl_generator_c.so[0m
+[10.244s] [ 24%] Built target coach_interfaces__rosidl_generator_c
+[10.249s] gmake: *** [Makefile:146: all] Error 2
+[10.259s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces -- -j4 -l4

@@ -1,0 +1,19 @@
+[0.591s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athmani-roumaissa/ros2_coach_ws/install/coach_vision:/home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup
+[1.234s] -- The C compiler identification is GNU 13.3.0
+[1.235s] -- The CXX compiler identification is GNU 13.3.0
+[1.235s] -- Detecting C compiler ABI info
+[1.649s] -- Detecting C compiler ABI info - done
+[1.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.702s] -- Detecting C compile features
+[1.704s] -- Detecting C compile features - done
+[1.742s] -- Detecting CXX compiler ABI info
+[2.113s] -- Detecting CXX compiler ABI info - done
+[2.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.159s] -- Detecting CXX compile features
+[2.161s] -- Detecting CXX compile features - done
+[2.190s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.885s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.808s] -- Configuring done (3.2s)
+[3.817s] -- Generating done (0.0s)
+[3.824s] -- Build files have been written to: /home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup

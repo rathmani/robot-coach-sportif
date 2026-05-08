@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing coach_feedback.egg-info/PKG-INFO
+writing dependency_links to coach_feedback.egg-info/dependency_links.txt
+writing entry points to coach_feedback.egg-info/entry_points.txt
+writing requirements to coach_feedback.egg-info/requires.txt
+writing top-level names to coach_feedback.egg-info/top_level.txt
+reading manifest file 'coach_feedback.egg-info/SOURCES.txt'
+writing manifest file 'coach_feedback.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/python3.12/site-packages/coach-feedback.egg-link (link to .)
+Installing feedback_node script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/coach_feedback
+
+Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback

@@ -1,0 +1,16 @@
+[3.973s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback/build --no-deps
+[5.335s] running develop
+[6.358s] running egg_info
+[6.478s] writing coach_feedback.egg-info/PKG-INFO
+[6.479s] writing dependency_links to coach_feedback.egg-info/dependency_links.txt
+[6.480s] writing entry points to coach_feedback.egg-info/entry_points.txt
+[6.480s] writing requirements to coach_feedback.egg-info/requires.txt
+[6.481s] writing top-level names to coach_feedback.egg-info/top_level.txt
+[6.676s] reading manifest file 'coach_feedback.egg-info/SOURCES.txt'
+[6.682s] writing manifest file 'coach_feedback.egg-info/SOURCES.txt'
+[6.807s] running build_ext
+[6.807s] Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/python3.12/site-packages/coach-feedback.egg-link (link to .)
+[6.809s] Installing feedback_node script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/coach_feedback
+[6.810s] 
+[6.816s] Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback
+[6.939s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_feedback/build --no-deps

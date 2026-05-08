@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating coach_vision.egg-info
+writing coach_vision.egg-info/PKG-INFO
+writing dependency_links to coach_vision.egg-info/dependency_links.txt
+writing entry points to coach_vision.egg-info/entry_points.txt
+writing requirements to coach_vision.egg-info/requires.txt
+writing top-level names to coach_vision.egg-info/top_level.txt
+writing manifest file 'coach_vision.egg-info/SOURCES.txt'
+reading manifest file 'coach_vision.egg-info/SOURCES.txt'
+writing manifest file 'coach_vision.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_vision/lib/python3.12/site-packages/coach-vision.egg-link (link to .)
+Installing pose_estimator script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_vision/lib/coach_vision
+
+Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_vision

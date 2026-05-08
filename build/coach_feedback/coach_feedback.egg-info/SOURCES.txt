@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+coach_feedback/__init__.py
+coach_feedback/feedback_node.py
+coach_feedback.egg-info/PKG-INFO
+coach_feedback.egg-info/SOURCES.txt
+coach_feedback.egg-info/dependency_links.txt
+coach_feedback.egg-info/entry_points.txt
+coach_feedback.egg-info/requires.txt
+coach_feedback.egg-info/top_level.txt
+coach_feedback.egg-info/zip-safe

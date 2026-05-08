@@ -1,0 +1,25 @@
+[1.872s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gym_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gym_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data
+[2.478s] running develop
+[2.902s] running egg_info
+[2.902s] creating coach_analyzer.egg-info
+[2.941s] writing coach_analyzer.egg-info/PKG-INFO
+[2.941s] writing dependency_links to coach_analyzer.egg-info/dependency_links.txt
+[2.942s] writing entry points to coach_analyzer.egg-info/entry_points.txt
+[2.942s] writing requirements to coach_analyzer.egg-info/requires.txt
+[2.942s] writing top-level names to coach_analyzer.egg-info/top_level.txt
+[2.942s] writing manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[3.021s] reading manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[3.022s] writing manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[3.063s] running build_ext
+[3.064s] Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach-analyzer.egg-link (link to .)
+[3.065s] Installing coach_speaker script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[3.065s] Installing rep_validator script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[3.065s] 
+[3.066s] Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer
+[3.066s] running symlink_data
+[3.066s] creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index
+[3.066s] creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index
+[3.066s] creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index/packages
+[3.067s] symbolically linking /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/resource/coach_analyzer -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index/packages
+[3.067s] symbolically linking /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/package.xml -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/coach_analyzer
+[3.120s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gym_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gym_env) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data

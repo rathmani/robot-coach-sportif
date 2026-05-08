@@ -1,0 +1,18 @@
+[3.137s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data
+[3.950s] running develop
+[4.429s] running egg_info
+[4.477s] writing coach_analyzer.egg-info/PKG-INFO
+[4.478s] writing dependency_links to coach_analyzer.egg-info/dependency_links.txt
+[4.478s] writing entry points to coach_analyzer.egg-info/entry_points.txt
+[4.479s] writing requirements to coach_analyzer.egg-info/requires.txt
+[4.479s] writing top-level names to coach_analyzer.egg-info/top_level.txt
+[4.576s] reading manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[4.578s] writing manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[4.628s] running build_ext
+[4.630s] Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach-analyzer.egg-link (link to .)
+[4.631s] Installing coach_speaker script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[4.632s] Installing rep_validator script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[4.632s] 
+[4.632s] Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer
+[4.632s] running symlink_data
+[4.704s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data

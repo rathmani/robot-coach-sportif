@@ -1,0 +1,21 @@
+[0.034s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athmani-roumaissa/ros2_coach_ws/install/coach_vision:/home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gym_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(gym_env) /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_bringup -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup
+[0.129s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.635s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.735s] Traceback (most recent call last):
+[0.735s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.736s]     from catkin_pkg.package import parse_package_string
+[0.736s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.746s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.746s]   execute_process(/home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3
+[0.746s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.746s]   /home/athmani-roumaissa/ros2_coach_ws/src/coach_bringup/package.xml
+[0.747s]   /home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup/ament_cmake_core/package.cmake)
+[0.747s]   returned error code 1
+[0.747s] Call Stack (most recent call first):
+[0.748s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.748s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.748s]   CMakeLists.txt:10 (ament_package)
+[0.748s] 
+[0.748s] [0m
+[0.749s] -- Configuring incomplete, errors occurred!
+[0.759s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/athmani-roumaissa/ros2_coach_ws/install/coach_vision:/home/athmani-roumaissa/ros2_coach_ws/install/coach_feedback:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gym_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(gym_env) /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_bringup -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup

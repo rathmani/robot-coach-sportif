@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a964447798b9f53b36bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "coach_interfaces__py",
+					"jsonFile" : "directory-coach_interfaces__py-7ab9a55df61c46eaf774.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/coach_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "coach_interfaces__rs",
+					"jsonFile" : "directory-coach_interfaces__rs-978bc9dad1c00b14571e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/coach_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "coach_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_coach_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_coach_interfaces_egg-5c9a61d70b9d3ee3209d.json",
+					"name" : "ament_cmake_python_build_coach_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_coach_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_coach_interfaces-d23e85f4ee6422e11661.json",
+					"name" : "ament_cmake_python_copy_coach_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces-8549cafa9bebe9e62217.json",
+					"name" : "coach_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__cpp-9392c9e656c154c3f8d7.json",
+					"name" : "coach_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "coach_interfaces__py::@17e3fbc000b50e70faaf",
+					"jsonFile" : "target-coach_interfaces__py-84093c9f364a6e923a6f.json",
+					"name" : "coach_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_generator_c-d13f51d78d49c12b5bc7.json",
+					"name" : "coach_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_generator_py-222e2a8e0ba8fcdacd29.json",
+					"name" : "coach_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_generator_type_description-33641adce86fa833754c.json",
+					"name" : "coach_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_c-1356e293b1f3d09392f6.json",
+					"name" : "coach_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_cpp-7c28c06d29b478022725.json",
+					"name" : "coach_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_fastrtps_c-27c1cdf83589813b680a.json",
+					"name" : "coach_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_fastrtps_cpp-da654db8a8acc4ebe9de.json",
+					"name" : "coach_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_introspection_c-df268d6bf3dc4c75057e.json",
+					"name" : "coach_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces__rosidl_typesupport_introspection_cpp-92befad82c794b60d098.json",
+					"name" : "coach_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "coach_interfaces__rs::@24d6016719bfcbc81b6b",
+					"jsonFile" : "target-coach_interfaces__rs-690b33815b13f11c4b3d.json",
+					"name" : "coach_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces_s__rosidl_typesupport_c-d788955992924c0e306b.json",
+					"name" : "coach_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces_s__rosidl_typesupport_fastrtps_c-69166f96051ae170da61.json",
+					"name" : "coach_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces_s__rosidl_typesupport_introspection_c-2be44e0a1c5dc91011b2.json",
+					"name" : "coach_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coach_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coach_interfaces_uninstall-f354ebc1b92ee57d67fe.json",
+					"name" : "coach_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e370df7c93b4a7c8055a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces",
+		"source" : "/home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

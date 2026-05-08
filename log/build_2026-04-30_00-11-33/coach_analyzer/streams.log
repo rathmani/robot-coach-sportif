@@ -1,0 +1,18 @@
+[4.134s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data
+[5.726s] running develop
+[6.790s] running egg_info
+[6.917s] writing coach_analyzer.egg-info/PKG-INFO
+[6.917s] writing dependency_links to coach_analyzer.egg-info/dependency_links.txt
+[6.923s] writing entry points to coach_analyzer.egg-info/entry_points.txt
+[6.923s] writing requirements to coach_analyzer.egg-info/requires.txt
+[6.924s] writing top-level names to coach_analyzer.egg-info/top_level.txt
+[7.120s] reading manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[7.127s] writing manifest file 'coach_analyzer.egg-info/SOURCES.txt'
+[7.243s] running build_ext
+[7.245s] Creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach-analyzer.egg-link (link to .)
+[7.247s] Installing coach_speaker script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[7.247s] Installing rep_validator script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+[7.249s] 
+[7.249s] Installed /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer
+[7.249s] running symlink_data
+[7.428s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build --no-deps symlink_data

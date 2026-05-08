@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup//launch/bicep_curl.launch.py
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/ament_index/resource_index/package_run_dependencies/coach_bringup
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/ament_index/resource_index/parent_prefix_path/coach_bringup
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/environment/path.sh
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/environment/path.dsv
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/local_setup.bash
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/local_setup.sh
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/local_setup.zsh
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/local_setup.dsv
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/package.dsv
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/ament_index/resource_index/packages/coach_bringup
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/cmake/coach_bringupConfig.cmake
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/cmake/coach_bringupConfig-version.cmake
+-- Symlinking: /home/athmani-roumaissa/ros2_coach_ws/install/coach_bringup/share/coach_bringup/package.xml

@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (6.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces
+[  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  4%] Built target ament_cmake_python_copy_coach_interfaces
+[  4%] Built target coach_interfaces__rosidl_generator_type_description
+running egg_info
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+creating coach_interfaces.egg-info
+writing coach_interfaces.egg-info/PKG-INFO
+writing dependency_links to coach_interfaces.egg-info/dependency_links.txt
+writing top-level names to coach_interfaces.egg-info/top_level.txt
+writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_coach_interfaces_egg
+[  8%] Built target coach_interfaces__cpp
+[ 11%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libcoach_interfaces__rosidl_generator_c.so[0m
+[ 24%] Built target coach_interfaces__rosidl_generator_c

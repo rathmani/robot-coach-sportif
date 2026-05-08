@@ -1,0 +1,4 @@
+source;share/coach_interfaces/local_setup.bash
+source;share/coach_interfaces/local_setup.dsv
+source;share/coach_interfaces/local_setup.sh
+source;share/coach_interfaces/local_setup.zsh

@@ -1,0 +1,2 @@
+source;share/coach_bringup/environment/ament_prefix_path.sh
+source;share/coach_bringup/environment/path.sh

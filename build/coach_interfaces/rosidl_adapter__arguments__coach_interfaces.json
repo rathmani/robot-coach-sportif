@@ -1,0 +1,7 @@
+{
+  "package_name": "coach_interfaces",
+  "non_idl_tuples": [
+    "/home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces:msg/ExerciseConditions.msg",
+    "/home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces:msg/RepResult.msg"
+  ]
+}

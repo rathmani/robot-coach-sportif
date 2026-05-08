@@ -1,0 +1,1 @@
+/home/athmani-roumaissa/ros2_coach_ws/build/coach_bringup/ament_cmake_core/coach_bringupConfig-version.cmake

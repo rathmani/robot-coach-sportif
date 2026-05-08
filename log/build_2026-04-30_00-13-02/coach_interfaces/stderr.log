@@ -1,0 +1,31 @@
+TransientParseError when expanding 'rmw.rs.em' into '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_generator_rs/coach_interfaces/rust/src/msg/rmw.rs': not enough data to read
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 43, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 36, in main
+    return generate_rs(
+           ^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py", line 165, in generate_rs
+    rosidl_pycommon.expand_template(
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 191, in expand_template
+    interpreter.string(template_content, locals=data)
+  File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5487, in string
+    while not self.safe(scanner, True, locals, dispatcher):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5500, in safe
+    return self.parse(scanner, locals)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 5554, in parse
+    token = scanner.one()
+            ^^^^^^^^^^^^^
+  File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 4481, in one
+    first = self.chop(1)
+            ^^^^^^^^^^^^
+  File "/home/athmani-roumaissa/ros2_coach_ws/gym_env/lib/python3.12/site-packages/em.py", line 4210, in chop
+    raise TransientParseError("not enough data to read")
+em.TransientParseError: not enough data to read
+gmake[2]: *** [/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/coach_interfaces__rs/CMakeFiles/coach_interfaces__rs.dir/build.make:124: rosidl_generator_rs/coach_interfaces/rust/src/lib.rs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:666: coach_interfaces__rs/CMakeFiles/coach_interfaces__rs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

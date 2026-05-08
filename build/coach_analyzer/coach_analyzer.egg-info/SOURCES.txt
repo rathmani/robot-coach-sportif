@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+coach_analyzer/__init__.py
+coach_analyzer/coach_speaker.py
+coach_analyzer/rep_validator_node.py
+coach_analyzer.egg-info/PKG-INFO
+coach_analyzer.egg-info/SOURCES.txt
+coach_analyzer.egg-info/dependency_links.txt
+coach_analyzer.egg-info/entry_points.txt
+coach_analyzer.egg-info/requires.txt
+coach_analyzer.egg-info/top_level.txt
+coach_analyzer.egg-info/zip-safe
+resource/coach_analyzer

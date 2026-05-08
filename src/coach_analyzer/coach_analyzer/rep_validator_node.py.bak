@@ -1,0 +1,117 @@
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import PoseArray
+from std_msgs.msg import String
+import numpy as np
+import math
+
+L_SHOULDER, R_SHOULDER = 11, 12
+L_ELBOW,    R_ELBOW    = 13, 14
+L_WRIST,    R_WRIST    = 15, 16
+L_HIP,      R_HIP      = 23, 24
+
+def angle_3pts(a, b, c):
+    ba = np.array([a[0]-b[0], a[1]-b[1], a[2]-b[2]])
+    bc = np.array([c[0]-b[0], c[1]-b[1], c[2]-b[2]])
+    cos_a = np.dot(ba, bc) / (np.linalg.norm(ba) * np.linalg.norm(bc) + 1e-9)
+    return math.degrees(math.acos(np.clip(cos_a, -1.0, 1.0)))
+
+def kp(poses, idx):
+    p = poses[idx]
+    return (p.position.x, p.position.y, p.position.z)
+
+def visible(poses, idx, threshold=0.4):
+    return poses[idx].orientation.w > threshold
+
+class RepValidatorNode(Node):
+    def __init__(self):
+        super().__init__('rep_validator')
+        self.declare_parameter('elbow_drift_max', 20.0)
+        self.declare_parameter('back_lean_max', 25.0)
+        self.declare_parameter('side', 'right')
+        self.elbow_drift_max = self.get_parameter('elbow_drift_max').value
+        self.back_lean_max   = self.get_parameter('back_lean_max').value
+        self.side            = self.get_parameter('side').value
+        if self.side == 'left':
+            self.idx_shoulder = L_SHOULDER
+            self.idx_elbow    = L_ELBOW
+            self.idx_wrist    = L_WRIST
+            self.idx_hip      = L_HIP
+        else:
+            self.idx_shoulder = R_SHOULDER
+            self.idx_elbow    = R_ELBOW
+            self.idx_wrist    = R_WRIST
+            self.idx_hip      = R_HIP
+        self.sub = self.create_subscription(PoseArray, '/pose/keypoints', self.on_keypoints, 10)
+        self.pub = self.create_publisher(String, '/feedback/command', 10)
+        self.rep_count     = 0
+        self.in_flex       = False
+        self.elbow_ref_x   = None
+        self.last_feedback = ''
+        self.get_logger().info('RepValidatorNode pret - cote : ' + self.side)
+
+    def on_keypoints(self, msg):
+        poses = msg.poses
+        if len(poses) < 33:
+            return
+        for idx in [self.idx_shoulder, self.idx_elbow, self.idx_wrist, self.idx_hip]:
+            if not visible(poses, idx):
+                return
+        elbow_x = kp(poses, self.idx_elbow)[0]
+        if self.elbow_ref_x is None:
+            self.elbow_ref_x = elbow_x
+            self.get_logger().info('Calibration coude effectuee !')
+        drift = abs(elbow_x - self.elbow_ref_x) * 100
+        elbow_ok = drift < self.elbow_drift_max
+        ls = kp(poses, L_SHOULDER)
+        rs = kp(poses, R_SHOULDER)
+        lh = kp(poses, L_HIP)
+        rh = kp(poses, R_HIP)
+        smx = (ls[0] + rs[0]) / 2
+        smy = (ls[1] + rs[1]) / 2
+        hmx = (lh[0] + rh[0]) / 2
+        hmy = (lh[1] + rh[1]) / 2
+        dy = hmy - smy
+        dx = hmx - smx
+        back_angle = math.degrees(math.atan2(abs(dx), abs(dy)))
+        back_ok = back_angle < self.back_lean_max
+        shoulder  = kp(poses, self.idx_shoulder)
+        elbow     = kp(poses, self.idx_elbow)
+        wrist     = kp(poses, self.idx_wrist)
+        arm_angle = angle_3pts(shoulder, elbow, wrist)
+        if arm_angle < 90 and not self.in_flex:
+            self.in_flex = True
+            self.get_logger().info('FLEX detectee bras=' + str(round(arm_angle)))
+        if arm_angle > 140 and self.in_flex:
+            self.in_flex = False
+            self.rep_count += 1
+            self.get_logger().info('REP COMPTEE ! Total=' + str(self.rep_count))
+        errors = []
+        if not elbow_ok:
+            errors.append('ELBOW|Fixez votre coude contre le corps')
+        if not back_ok:
+            errors.append('BACK|Gardez le dos droit')
+        if errors:
+            feedback = 'ERROR|' + '||'.join(errors)
+        else:
+            feedback = 'SUCCESS|Bien joue ! Rep ' + str(self.rep_count)
+        if feedback != self.last_feedback:
+            msg_out = String()
+            msg_out.data = feedback
+            self.pub.publish(msg_out)
+            self.last_feedback = feedback
+        status = 'OK ' if not errors else 'ERR'
+        self.get_logger().info('[' + status + '] coude=' + str(round(drift,1)) + ' dos=' + str(round(back_angle,1)) + ' bras=' + str(round(arm_angle)) + ' reps=' + str(self.rep_count))
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = RepValidatorNode()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
+    rclpy.try_shutdown()
+
+if __name__ == '__main__':
+    main()

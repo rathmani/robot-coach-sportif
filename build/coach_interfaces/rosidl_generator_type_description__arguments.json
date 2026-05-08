@@ -1,0 +1,12 @@
+{
+  "package_name": "coach_interfaces",
+  "output_dir": "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_generator_type_description/coach_interfaces",
+  "idl_tuples": [
+    "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_adapter/coach_interfaces:msg/ExerciseConditions.idl",
+    "/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_adapter/coach_interfaces:msg/RepResult.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

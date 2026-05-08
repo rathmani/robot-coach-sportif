@@ -1,0 +1,2 @@
+[console_scripts]
+feedback_node = coach_feedback.feedback_node:main

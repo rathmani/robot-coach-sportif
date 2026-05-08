@@ -1,0 +1,9 @@
+source;share/coach_feedback/hook/pythonpath.ps1
+source;share/coach_feedback/hook/pythonpath.dsv
+source;share/coach_feedback/hook/pythonpath.sh
+source;share/coach_feedback/hook/ament_prefix_path.ps1
+source;share/coach_feedback/hook/ament_prefix_path.dsv
+source;share/coach_feedback/hook/ament_prefix_path.sh
+source;../../build/coach_feedback/share/coach_feedback/hook/pythonpath_develop.ps1
+source;../../build/coach_feedback/share/coach_feedback/hook/pythonpath_develop.dsv
+source;../../build/coach_feedback/share/coach_feedback/hook/pythonpath_develop.sh

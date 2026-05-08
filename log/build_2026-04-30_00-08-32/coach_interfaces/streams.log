@@ -1,0 +1,43 @@
+[1.218s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces
+[1.262s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.036s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.476s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.487s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.303s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[3.304s]   execute_process(/home/athmani-roumaissa/ros2_coach_ws/gym_env/bin/python3
+[3.304s]   -m rosidl_adapter --package-name coach_interfaces --arguments-file
+[3.304s]   /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_adapter__arguments__coach_interfaces.json
+[3.305s]   --output-dir
+[3.305s]   /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_adapter/coach_interfaces
+[3.312s]   --output-file
+[3.313s]   /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces/rosidl_adapter/coach_interfaces.idls)
+[3.315s]   returned error code 1:
+[3.316s] 
+[3.316s]   Traceback (most recent call last):
+[3.316s] 
+[3.316s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[3.317s]     File "<frozen runpy>", line 88, in _run_code
+[3.317s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.317s]       sys.exit(main())
+[3.318s]                ^^^^^^
+[3.318s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.318s]       abs_idl_file = convert_to_idl(
+[3.318s]                      ^^^^^^^^^^^^^^^
+[3.319s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[3.319s]       from rosidl_adapter.msg import convert_msg_to_idl
+[3.319s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[3.319s]       from rosidl_adapter.resource import expand_template
+[3.320s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[3.320s]       import em
+[3.329s] 
+[3.330s]   ModuleNotFoundError: No module named 'em'
+[3.330s] 
+[3.330s] Call Stack (most recent call first):
+[3.331s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[3.331s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[3.331s] 
+[3.331s] [0m
+[3.332s] -- Configuring incomplete, errors occurred!
+[3.350s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces

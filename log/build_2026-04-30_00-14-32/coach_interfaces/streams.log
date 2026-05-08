@@ -1,0 +1,280 @@
+[1.097s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces
+[1.392s] -- The C compiler identification is GNU 13.3.0
+[1.647s] -- The CXX compiler identification is GNU 13.3.0
+[1.715s] -- Detecting C compiler ABI info
+[2.102s] -- Detecting C compiler ABI info - done
+[2.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.142s] -- Detecting C compile features
+[2.144s] -- Detecting C compile features - done
+[2.196s] -- Detecting CXX compiler ABI info
+[2.608s] -- Detecting CXX compiler ABI info - done
+[2.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.651s] -- Detecting CXX compile features
+[2.653s] -- Detecting CXX compile features - done
+[2.672s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.384s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.006s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.656s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.678s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.467s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.655s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.067s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.386s] -- Found PythonExtra: /usr/bin/python3  
+[11.360s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.589s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.609s] -- Configuring done (10.5s)
+[11.713s] -- Generating done (0.1s)
+[11.719s] [33mCMake Warning:
+[11.719s]   Manually-specified variables were not used by the project:
+[11.720s] 
+[11.720s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[11.720s]     CATKIN_SYMLINK_INSTALL
+[11.720s] 
+[11.720s] [0m
+[11.742s] -- Build files have been written to: /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces
+[11.758s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/athmani-roumaissa/ros2_coach_ws/src/coach_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces
+[11.760s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces -- -j4 -l4
+[11.894s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.901s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.930s] [  4%] Built target ament_cmake_python_copy_coach_interfaces
+[12.620s] running egg_info
+[12.620s] creating coach_interfaces.egg-info
+[12.703s] [  4%] Built target coach_interfaces__rs
+[12.718s] [  4%] Built target coach_interfaces__rosidl_generator_type_description
+[12.721s] writing coach_interfaces.egg-info/PKG-INFO
+[12.722s] writing dependency_links to coach_interfaces.egg-info/dependency_links.txt
+[12.722s] writing top-level names to coach_interfaces.egg-info/top_level.txt
+[12.723s] writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[12.752s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.790s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.953s] reading manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[12.953s] writing manifest file 'coach_interfaces.egg-info/SOURCES.txt'
+[13.037s] [  8%] Built target ament_cmake_python_build_coach_interfaces_egg
+[13.767s] [  8%] Built target coach_interfaces__cpp
+[13.857s] [ 11%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__functions.c.o[0m
+[13.863s] [ 13%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__description.c.o[0m
+[13.866s] [ 15%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/exercise_conditions__type_support.c.o[0m
+[14.008s] [ 17%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__functions.c.o[0m
+[14.011s] [ 20%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__description.c.o[0m
+[14.026s] [ 22%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_c.dir/rosidl_generator_c/coach_interfaces/msg/detail/rep_result__type_support.c.o[0m
+[14.152s] [ 24%] [32m[1mLinking C shared library libcoach_interfaces__rosidl_generator_c.so[0m
+[14.245s] [ 24%] Built target coach_interfaces__rosidl_generator_c
+[14.283s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.286s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.287s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.058s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.065s] [ 35%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/coach_interfaces/msg/detail/exercise_conditions__type_support.c.o[0m
+[15.156s] [ 37%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/coach_interfaces/msg/exercise_conditions__type_support.cpp.o[0m
+[15.243s] [ 40%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/coach_interfaces/msg/detail/rep_result__type_support.c.o[0m
+[15.378s] [ 42%] [32m[1mLinking C shared library libcoach_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.448s] [ 44%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/coach_interfaces/msg/rep_result__type_support.cpp.o[0m
+[15.493s] [ 44%] Built target coach_interfaces__rosidl_typesupport_introspection_c
+[15.509s] [ 46%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/coach_interfaces/msg/detail/dds_fastrtps/exercise_conditions__type_support.cpp.o[0m
+[15.537s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.606s] [ 51%] [32m[1mLinking CXX shared library libcoach_interfaces__rosidl_typesupport_c.so[0m
+[15.800s] [ 51%] Built target coach_interfaces__rosidl_typesupport_c
+[15.830s] [ 53%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/coach_interfaces/msg/detail/dds_fastrtps/rep_result__type_support.cpp.o[0m
+[16.217s] [ 55%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/coach_interfaces/msg/detail/exercise_conditions__type_support.cpp.o[0m
+[16.556s] [ 57%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/coach_interfaces/msg/exercise_conditions__type_support.cpp.o[0m
+[17.490s] [ 60%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/coach_interfaces/msg/detail/rep_result__type_support.cpp.o[0m
+[17.640s] [ 62%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.974s] [ 64%] [32m[1mLinking CXX shared library libcoach_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.073s] [ 66%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/coach_interfaces/msg/rep_result__type_support.cpp.o[0m
+[18.367s] [ 66%] Built target coach_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.595s] [ 68%] [32m[1mLinking CXX shared library libcoach_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[18.846s] [ 68%] Built target coach_interfaces__rosidl_typesupport_introspection_cpp
+[19.007s] [ 71%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/coach_interfaces/msg/detail/exercise_conditions__type_support_c.cpp.o[0m
+[19.009s] [ 73%] [32mBuilding CXX object CMakeFiles/coach_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/coach_interfaces/msg/detail/rep_result__type_support_c.cpp.o[0m
+[19.146s] [ 75%] [32m[1mLinking CXX shared library libcoach_interfaces__rosidl_typesupport_cpp.so[0m
+[19.267s] [ 75%] Built target coach_interfaces__rosidl_typesupport_cpp
+[20.310s] [ 77%] [32m[1mLinking CXX shared library libcoach_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.505s] [ 77%] Built target coach_interfaces__rosidl_typesupport_fastrtps_c
+[20.559s] [ 77%] Built target coach_interfaces
+[20.611s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.404s] [ 80%] Built target coach_interfaces__py
+[21.453s] [ 82%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_py.dir/rosidl_generator_py/coach_interfaces/msg/_exercise_conditions_s.c.o[0m
+[21.454s] [ 84%] [32mBuilding C object CMakeFiles/coach_interfaces__rosidl_generator_py.dir/rosidl_generator_py/coach_interfaces/msg/_rep_result_s.c.o[0m
+[21.909s] [ 86%] [32m[1mLinking C shared library libcoach_interfaces__rosidl_generator_py.so[0m
+[22.078s] [ 86%] Built target coach_interfaces__rosidl_generator_py
+[22.190s] [ 88%] [32mBuilding C object CMakeFiles/coach_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.196s] [ 91%] [32mBuilding C object CMakeFiles/coach_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.477s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/coach_interfaces/coach_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[22.494s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/coach_interfaces/coach_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[22.547s] [ 95%] Built target coach_interfaces_s__rosidl_typesupport_introspection_c
+[22.569s] [ 95%] Built target coach_interfaces_s__rosidl_typesupport_fastrtps_c
+[22.597s] [ 97%] [32mBuilding C object CMakeFiles/coach_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.837s] [100%] [32m[1mLinking C shared module rosidl_generator_py/coach_interfaces/coach_interfaces_s__rosidl_typesupport_c.so[0m
+[22.911s] [100%] Built target coach_interfaces_s__rosidl_typesupport_c
+[22.938s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces -- -j4 -l4
+[22.943s] Invoking command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces
+[22.964s] -- Install configuration: ""
+[22.965s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/ament_index/resource_index/rosidl_interfaces/coach_interfaces
+[22.966s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/ExerciseConditions.json
+[22.966s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/RepResult.json
+[22.967s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.967s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.967s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rosidl_generator_c__visibility_control.h
+[22.968s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rep_result.h
+[22.968s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.969s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__functions.h
+[22.969s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__type_support.c
+[22.969s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__type_support.h
+[22.970s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__description.c
+[22.970s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__struct.h
+[22.970s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__type_support.h
+[22.970s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__description.c
+[22.971s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__functions.c
+[22.971s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__functions.h
+[22.971s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__struct.h
+[22.971s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__functions.c
+[22.971s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__type_support.c
+[22.972s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/exercise_conditions.h
+[22.972s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/library_path.sh
+[22.972s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/library_path.dsv
+[22.973s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_generator_c.so
+[22.974s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_generator_c.so" to ""
+[22.974s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.974s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.975s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[22.975s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.975s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__rosidl_typesupport_fastrtps_c.h
+[22.975s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__rosidl_typesupport_fastrtps_c.h
+[22.976s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_fastrtps_c.so
+[22.976s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[22.976s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.977s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.977s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[22.977s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.978s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__type_support.c
+[22.978s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__rosidl_typesupport_introspection_c.h
+[22.978s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__rosidl_typesupport_introspection_c.h
+[22.978s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__type_support.c
+[22.979s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_introspection_c.so
+[22.979s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[22.979s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_c.so
+[22.980s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_c.so" to ""
+[22.981s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.981s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.982s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/exercise_conditions.hpp
+[22.982s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rep_result.hpp
+[22.983s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[22.983s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.984s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__type_support.hpp
+[22.985s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__struct.hpp
+[22.985s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__traits.hpp
+[22.986s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__builder.hpp
+[22.986s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__builder.hpp
+[22.986s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__type_support.hpp
+[22.987s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__struct.hpp
+[22.987s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__traits.hpp
+[22.988s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.988s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.988s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[22.989s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.989s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/dds_fastrtps
+[22.989s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__rosidl_typesupport_fastrtps_cpp.hpp
+[22.990s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__rosidl_typesupport_fastrtps_cpp.hpp
+[22.990s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[22.991s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[22.991s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces
+[22.991s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg
+[22.992s] -- Up-to-date: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail
+[22.992s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__rosidl_typesupport_introspection_cpp.hpp
+[22.992s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__rosidl_typesupport_introspection_cpp.hpp
+[22.993s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/exercise_conditions__type_support.cpp
+[22.993s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/include/coach_interfaces/coach_interfaces/msg/detail/rep_result__type_support.cpp
+[22.993s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_introspection_cpp.so
+[22.994s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[22.994s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_cpp.so
+[22.994s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_typesupport_cpp.so" to ""
+[22.995s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/pythonpath.sh
+[22.995s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/pythonpath.dsv
+[22.996s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces-0.1.0-py3.12.egg-info
+[22.996s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+[22.996s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+[22.997s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+[22.998s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+[22.998s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces
+[22.999s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/__init__.py
+[22.999s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_c.c
+[23.000s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.000s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg
+[23.001s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_rep_result.py
+[23.001s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/__init__.py
+[23.002s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_exercise_conditions_s.c
+[23.002s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_rep_result_s.c
+[23.002s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_exercise_conditions.py
+[23.003s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.003s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.003s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/_coach_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[23.003s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_c.so
+[23.094s] Listing '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces'...
+[23.094s] Compiling '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/__init__.py'...
+[23.095s] Listing '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg'...
+[23.095s] Compiling '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/__init__.py'...
+[23.095s] Compiling '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_exercise_conditions.py'...
+[23.095s] Compiling '/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/msg/_rep_result.py'...
+[23.108s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[23.109s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[23.110s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_introspection_c.so
+[23.111s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[23.111s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_c.so
+[23.112s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/python3.12/site-packages/coach_interfaces/coach_interfaces_s__rosidl_typesupport_c.so" to ""
+[23.113s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_generator_py.so
+[23.114s] -- Set non-toolchain portion of runtime path of "/home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/lib/libcoach_interfaces__rosidl_generator_py.so" to ""
+[23.115s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/ament_index/resource_index/rust_packages/coach_interfaces
+[23.115s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust
+[23.115s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/Cargo.toml
+[23.116s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/src
+[23.116s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/src/lib.rs
+[23.117s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/src/msg
+[23.117s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/src/msg/rmw.rs
+[23.118s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/src/msg.rs
+[23.120s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/rust/build.rs
+[23.121s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/ExerciseConditions.idl
+[23.121s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/RepResult.idl
+[23.121s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/ExerciseConditions.msg
+[23.122s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/msg/RepResult.msg
+[23.122s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/ament_index/resource_index/package_run_dependencies/coach_interfaces
+[23.122s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/ament_index/resource_index/parent_prefix_path/coach_interfaces
+[23.123s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/ament_prefix_path.sh
+[23.123s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/ament_prefix_path.dsv
+[23.123s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/path.sh
+[23.124s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/environment/path.dsv
+[23.124s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/local_setup.bash
+[23.124s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/local_setup.sh
+[23.124s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/local_setup.zsh
+[23.125s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/local_setup.dsv
+[23.125s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/package.dsv
+[23.125s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/ament_index/resource_index/packages/coach_interfaces
+[23.126s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_generator_cExport.cmake
+[23.126s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_generator_cExport-noconfig.cmake
+[23.127s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[23.127s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[23.127s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[23.128s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.128s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_cExport.cmake
+[23.128s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[23.128s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_generator_cppExport.cmake
+[23.129s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[23.129s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[23.130s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[23.130s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.131s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_cppExport.cmake
+[23.131s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[23.132s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_generator_pyExport.cmake
+[23.132s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/export_coach_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[23.133s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/rosidl_cmake-extras.cmake
+[23.133s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.134s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.134s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[23.135s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[23.135s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[23.135s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[23.136s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfacesConfig.cmake
+[23.136s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/cmake/coach_interfacesConfig-version.cmake
+[23.137s] -- Installing: /home/athmani-roumaissa/ros2_coach_ws/install/coach_interfaces/share/coach_interfaces/package.xml
+[23.141s] Invoked command in '/home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/athmani-roumaissa/ros2_coach_ws/build/coach_interfaces

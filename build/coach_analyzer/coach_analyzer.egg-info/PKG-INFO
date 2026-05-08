@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: coach-analyzer
+Version: 0.0.0
+Summary: Coach sportif intelligent avec ROS 2
+Maintainer: votre_nom
+Maintainer-email: votre_email@example.com
+License: Apache License 2.0

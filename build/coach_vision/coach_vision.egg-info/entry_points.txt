@@ -1,0 +1,2 @@
+[console_scripts]
+pose_estimator = coach_vision.pose_estimator_node:main

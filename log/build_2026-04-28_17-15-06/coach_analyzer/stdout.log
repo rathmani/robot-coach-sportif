@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/coach_analyzer/coach_analyzer.egg-info
+writing ../../build/coach_analyzer/coach_analyzer.egg-info/PKG-INFO
+writing dependency_links to ../../build/coach_analyzer/coach_analyzer.egg-info/dependency_links.txt
+writing entry points to ../../build/coach_analyzer/coach_analyzer.egg-info/entry_points.txt
+writing requirements to ../../build/coach_analyzer/coach_analyzer.egg-info/requires.txt
+writing top-level names to ../../build/coach_analyzer/coach_analyzer.egg-info/top_level.txt
+writing manifest file '../../build/coach_analyzer/coach_analyzer.egg-info/SOURCES.txt'
+reading manifest file '../../build/coach_analyzer/coach_analyzer.egg-info/SOURCES.txt'
+writing manifest file '../../build/coach_analyzer/coach_analyzer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build
+creating /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib
+creating /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer
+copying coach_analyzer/rep_validator_node.py -> /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer
+copying coach_analyzer/__init__.py -> /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer
+copying coach_analyzer/coach_speaker.py -> /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer
+running install
+running install_lib
+creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer
+copying /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer/rep_validator_node.py -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer
+copying /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer/__init__.py -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer
+copying /home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/build/lib/coach_analyzer/coach_speaker.py -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer
+byte-compiling /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer/rep_validator_node.py to rep_validator_node.cpython-312.pyc
+byte-compiling /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer/coach_speaker.py to coach_speaker.cpython-312.pyc
+running install_data
+creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index
+creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index
+creating /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index/packages
+copying resource/coach_analyzer -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/ament_index/resource_index/packages
+copying package.xml -> /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/share/coach_analyzer
+running install_egg_info
+Copying ../../build/coach_analyzer/coach_analyzer.egg-info to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/python3.12/site-packages/coach_analyzer-0.0.0-py3.12.egg-info
+running install_scripts
+Installing coach_speaker script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+Installing rep_validator script to /home/athmani-roumaissa/ros2_coach_ws/install/coach_analyzer/lib/coach_analyzer
+writing list of installed files to '/home/athmani-roumaissa/ros2_coach_ws/build/coach_analyzer/install.log'

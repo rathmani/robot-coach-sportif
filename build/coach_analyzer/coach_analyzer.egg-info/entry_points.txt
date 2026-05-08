@@ -1,0 +1,3 @@
+[console_scripts]
+coach_speaker = coach_analyzer.coach_speaker:main
+rep_validator = coach_analyzer.rep_validator_node:main
