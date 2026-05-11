@@ -17,4 +17,4 @@
 - ↺ Reset automatique après 8 secondes de pause
 
 ## 🏗️ Architecture
-This project was co-authored and implemented by the team: Athmani Romaissa Amira Malak Daoui
+This project was co-authored and implemented by the team: Athmani Romaissa Amira Malak Daoui LAGAB MARIA
